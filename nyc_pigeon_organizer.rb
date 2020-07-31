@@ -10,7 +10,6 @@ data.each do|attribute_name, attributes|
        list_by_name[name] ||= {}
       list_by_name[name][attribute_name] ||= []
     list_by_name[name][attribute_name].push(attribute_value.to_s)
-
     end
   end
 end
